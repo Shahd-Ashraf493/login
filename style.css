@@ -1,0 +1,55 @@
+.back-ground{
+    background-color: rgb(36, 53, 63) !important;
+}
+
+h1{
+  color: rgb(23, 162, 184) !important;
+}
+
+input::placeholder{
+    color: rgb(173, 172, 172) !important;
+}
+
+.card1{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px !important;
+}
+
+button:hover{
+    color: #fff !important;
+    background-color:  rgb(23, 162, 184) !important;
+    border-color:  rgb(23, 162, 184) !important;
+}
+
+a:hover{
+   text-decoration-line: underline !important;
+}
+
+i{
+    cursor: pointer;
+}
+
+.fa-eye {
+    display: none !important;
+}
+
+body:has(#eye:checked) .fa-eye {
+    display: block !important;
+}
+
+body:has(#eye:checked) .fa-eye-slash {
+    display: none !important;
+}
+
+.welcome-color{
+  color: rgb(23, 162, 184) !important;
+}
+
+.last-btn{
+  color: gray !important;  
+}
+
+.last-btn:hover{
+    background-color: rgba(225, 193, 7, 0.404) !important;
+    border:rgba(225, 193, 7, 0.404) !important ;
+    color: gray !important;
+}
